@@ -1,0 +1,80 @@
+
+.wetherBg{
+    background: url("https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=800&h=300");
+    /* background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg"); */
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .heading{
+    color:rgb(111, 212, 150);
+    font-weight: 700;
+  }
+  .wetherResultBox{
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 350px;
+    margin-left: 23px;
+    background-color: rgb(31, 125, 225);
+  }
+  .middiumbox{
+    background-color: rgb(254, 255, 250);
+    width: 100%;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .weathorIcon{
+    float: left;
+    margin-top: 2rem;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  .weathorCity{
+    font-size:45px;
+    font-weight: 400;
+  }
+  .weathorTemp{
+    margin-top: 1%;
+    font-size:45px;
+    font-weight: 600;
+  }
+  .newset{
+    align-items: center;
+    margin-top: 5%;
+  }
+  .sunrise{
+    float: left;
+    margin-left: 15%;
+    margin-top: 4%;
+  }
+  .sunset{
+    float: right;
+    margin-top: 4%;
+    margin-right: 15%;
+  }
+  .currentTime{
+    font-size:45px;
+    font-weight: 400;
+  }
+  .windspeed{
+    float: left;
+    margin-left: 10%;
+    margin-top: 6%;
+  }
+  .direction{
+    float: right;
+    margin-top: 6%;
+    margin-right: 18%;
+  }
+  .number{
+    color: rgb(232, 151, 2);
+  }
+  .words{
+    color: rgb(99, 11, 181);
+  }
+  

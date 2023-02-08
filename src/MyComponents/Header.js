@@ -23,27 +23,23 @@ export default function Header(props) {
             <li className="nav-item">
               <Link className="nav-link active" to="/news">News update</Link>
             </li>
-            
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link active" to="/weather">Weather Report</Link>
             </li>
 
           </ul>
-          {props.searchBar ? <form className="d-flex">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
-          </form> : ""}
+         
         </div>
       </div>
     </nav>
   )
 }
-Header.defaultProps = {
-  title: "Your Title Here",
-  searchBar: true
-}
+// Header.defaultProps = {
+//   title: "Your Title Here",
+//   searchBar: true
+// }
 
-Header.propTypes = {
-  title: PropTypes.string,
-  searchBar: PropTypes.bool.isRequired
-}
+// Header.propTypes = {
+//   title: PropTypes.string,
+//   searchBar: PropTypes.bool.isRequired
+// }
